@@ -45,11 +45,11 @@ Content-Type: application/json
 
 ```json
 {
-	"query": "session restore — all saved context",
-	"tenant": "Sushidata",
-	"dataspace": "Sushidata Internal",
-	"threadId": "<cowork-session-id>",
-	"limit": 50
+  "query": "session restore — all saved context",
+  "tenant": "Mitratech",
+  "dataspace": "Mitratech Internal",
+  "threadId": "<cowork-session-id>",
+  "limit": 50
 }
 ```
 
@@ -64,10 +64,10 @@ Content-Type: application/json
 
 ```json
 {
-	"query": "recent session intelligence accounts contacts competitors documents",
-	"tenant": "Sushidata",
-	"dataspace": "Sushidata Internal",
-	"limit": 20
+  "query": "recent session intelligence accounts contacts competitors documents",
+  "tenant": "Mitratech",
+  "dataspace": "Mitratech Internal",
+  "limit": 20
 }
 ```
 
