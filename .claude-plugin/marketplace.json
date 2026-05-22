@@ -1,14 +1,14 @@
 {
-  "name": "sushidata-gtm",
+  "name": "sushidata-gtm-mitratech",
   "owner": {
-    "name": "Sushidata"
+    "name": "Mitratech"
   },
   "plugins": [
     {
-      "name": "sushidata-gtm",
+      "name": "sushidata-gtm-mitratech",
       "source": {
         "source": "github",
-        "repo": "georgeportillo/sushidata-plugin"
+        "repo": "georgeportillo/mitratech-sushidata-plugin"
       },
       "description": "Sushidata context lake + GTM agent: prospecting, outbound, competitor battlecards, ICP signals, and outreach copy."
     }
