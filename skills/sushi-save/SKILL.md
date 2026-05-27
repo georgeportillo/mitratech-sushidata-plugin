@@ -12,9 +12,7 @@ description: >
 When triggered, give the user a choice of what to save, then write their
 selection to the Sushidata context lake.
 
-BASE URL: https://dashboard.sushidata.ai/public/019e2876-d48b-765c-b303-06c7ff915c0d/
-Tenant: Mitratech
-Dataspace: Mitratech Internal
+> Read `SETTINGS.md` at the plugin root for **BASE_URL**, **Tenant**, and **Dataspace**.
 
 ---
 
@@ -47,7 +45,6 @@ Show the user a summary of what was found, then ask what they want to save:
 Here's what I found worth saving from this session:
 
 [List each category with a one-line summary of what's in it. Example:]
-
 - **Accounts & Contacts** — 3 accounts researched: Acme Corp, Initech, Globex
 - **Competitor Intelligence** — ZeroFox GTM report, channel breakdown
 - **Documents Produced** — TAM analysis for enterprise security segment
@@ -79,7 +76,6 @@ then proceed to Step 4.
 ## Step 4 — Get the session ID
 
 Run:
-
 ```bash
 echo $PWD | grep -oP 'local_[a-f0-9-]+'
 ```
