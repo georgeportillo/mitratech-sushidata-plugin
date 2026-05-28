@@ -22,6 +22,6 @@
     "apify"
   ],
   "homepage": "https://dashboard.sushidata.ai",
-  "repository": "https://github.com/sushidata",
+  "repository": "https://github.com/georgeportillo/mitratech-sushidata-plugin",
   "license": "MIT"
 }
